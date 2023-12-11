@@ -1,0 +1,58 @@
+  /*настройки стилей страницы*/
+
+  html, body {
+    height: 100%;    
+    font-family: monospace, monospace;
+  }
+
+
+  h1 {
+    color: #fff;
+    display: block;
+  }
+  /*делаем чёрный фон*/
+  body {
+    background: black;
+    
+  }
+  /*толщина рамки — 1 пиксель, белый цвет, неоновое свечение*/
+  canvas {
+    box-shadow:  
+    0 0 1px #fff,
+    0 0 11px rgb(0, 217, 255),
+    0 0 20px rgb(1, 86, 58),
+    0 0 30px rgb(1, 99, 66);
+  }
+  /* Выравниваем всё по центру */
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 3%;
+  }
+  /* Стилизируем поля с очками */
+  .container > span {
+    color: #989797;
+    font-size: 18px;
+    padding-top: 18px;
+  }
+ /* Делаем кнопку рестарта неоновой и анимированной при наведении */
+  button {
+    margin-top: 15px;
+    padding: 8px 14px;
+    border-radius: 6px;    
+    transition: 200ms transform;
+    font-family: monospace, monospace;
+    box-shadow:  
+    0 0 1px #fff,
+    0 0 11px rgb(0, 217, 255),
+    0 0 20px rgb(1, 86, 58),
+    0 0 30px rgb(1, 99, 66),
+    0 0 80px rgb(1, 99, 66);
+  }
+
+  button:hover {
+    background-color: #fff;
+    transform: translateY(-2px);
+  }
