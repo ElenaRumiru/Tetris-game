@@ -1,4 +1,4 @@
-
+### DEMO-GAME: https://elenarumiru.github.io/Tetris-game/
 
 #### Game: "TETRIS"
 Created by: Rumiantseva Elena, 2023.
@@ -19,6 +19,8 @@ for для Wildberries.com
 - reset.css - сброс сторонней стилизации.
 - elems.css - стилизация страницы;
 - game_logic.js - скрипт игровой логики.
+
+### 3. Особенности
 
 ### 3. Авторские права
 В комментариях к коду указаны все материалы, которыми я руководствовалась при создании мини-игры.

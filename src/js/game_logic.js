@@ -11,7 +11,7 @@
 
  // При загрузке страницы возьмем сохраненное значение лучшего результата
  window.addEventListener('load', () => {
-  saved = localStorage.getItem(bestScore); // после загрузки HTML и всех связанных ресурсов)
+  saved = window.localStorage.getItem(bestScore); // после загрузки HTML и всех связанных ресурсов)
   bestScore.textContent = saved;
 });
 
@@ -248,7 +248,7 @@
      if (scoreCount > recordCount) {      
       bestScore.textContent = scoreCount;
       let valuev = bestScore.textContent;
-      localStorage.setItem(bestScore, valuev);
+      window.localStorage.setItem(bestScore, valuev);
      }
    } 
 
