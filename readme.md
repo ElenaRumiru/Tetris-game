@@ -2,10 +2,10 @@ DEMO-GAME: https://elenarumiru.github.io/Tetris-game/
 
 #### Game: "TETRIS"
 Created by: Rumiantseva Elena, 2023.
-for для Wildberries.com
+for Wildberries.com
 
 ### 1. Описание проекта
-Вэб-версия знаменитой дискретной игры Тетрис.
+Вэб-версия знаменитой дискретной игры Тетрис на чистом JS.
 - Игра управляется  с помощью стрелочек.
 - ← и → - перемещение фигуры по полю.
 - ↑ - поворот фигуры на 90 градусов
