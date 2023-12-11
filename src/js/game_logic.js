@@ -12,7 +12,9 @@
  // При загрузке страницы возьмем сохраненное значение лучшего результата
  window.addEventListener('load', () => {
   saved = window.localStorage.getItem(bestScore); // после загрузки HTML и всех связанных ресурсов)
+  if (!(saved == null)){
   bestScore.textContent = saved;
+}
 });
 
  // Определяем размер
