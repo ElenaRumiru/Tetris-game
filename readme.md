@@ -1,4 +1,4 @@
-<img width="895" height="817" alt="image" src="https://github.com/user-attachments/assets/75197c41-6abc-45df-a0d8-45a919a64906" />
+<img width="595" height="517" alt="image" src="https://github.com/user-attachments/assets/75197c41-6abc-45df-a0d8-45a919a64906" />
 
 
 DEMO-GAME: https://elenarumiru.github.io/Tetris-game/
